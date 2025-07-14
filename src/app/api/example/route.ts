@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { env } from '@/lib/env';
 
-export async function GET(request: NextRequest) {
+export async function GET() {
   try {
     
     // Example response with environment info (be careful not to expose sensitive data)
