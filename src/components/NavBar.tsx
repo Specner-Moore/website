@@ -1,5 +1,4 @@
 "use client";
-import Link from 'next/link';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const NAVBAR_HEIGHT = 64; // px, adjust if your navbar height changes

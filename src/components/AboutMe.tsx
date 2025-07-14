@@ -53,7 +53,7 @@ export default function AboutMe() {
               </p>
               
               <p className="text-base text-gray-700 dark:text-gray-200 leading-relaxed">
-                I transferred to the University of Waterloo starting fall of 2025 to continue my career at a larger university that offers a greater challenge. I'm so excited for what the next chapter of both my life and career will bring.
+                I transferred to the University of Waterloo starting fall of 2025 to continue my career at a larger university that offers a greater challenge. I am so excited for what the next chapter of both my life and career will bring.
               </p>
               
               <p className="text-base text-gray-700 dark:text-gray-200 leading-relaxed">

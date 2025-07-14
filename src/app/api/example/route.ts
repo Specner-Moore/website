@@ -1,10 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { env, getRequiredEnvVar } from '@/lib/env';
+import { env } from '@/lib/env';
 
 export async function GET(request: NextRequest) {
   try {
-    // Example of using environment variables safely
-    const isProd = env.NODE_ENV === 'production';
     
     // Example response with environment info (be careful not to expose sensitive data)
     const response = {
