@@ -19,14 +19,13 @@ export default function AboutMe() {
         <div className="flex flex-col md:flex-row items-center justify-center bg-white/90 dark:bg-black/80 rounded-xl shadow-lg p-8 md:p-12 gap-8">
           {/* Profile Image and Tech Tags */}
           <div className="flex-shrink-0 flex flex-col items-center gap-6">
-            <div className="w-80 h-64 rounded-lg overflow-hidden bg-gray-200 dark:bg-gray-800 flex items-center justify-center">
+            <div className="rounded-lg overflow-hidden bg-gray-200 dark:bg-gray-800 flex items-center justify-center">
               <Image
-                src="https://via.placeholder.com/320x256.png?text=Profile+Image"
-                alt="Profile Placeholder"
-                width={320}
-                height={256}
-                className="object-cover w-full h-full"
-                priority
+                src="/aboutme.jpeg"
+                alt="A photo of me"
+                width={210}
+                height={280}
+                style={{ borderRadius: '16px', maxWidth: '100%', height: 'auto' }}
               />
             </div>
             

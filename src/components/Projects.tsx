@@ -23,8 +23,8 @@ const projects = [
       </p>
       </>
     ),
-    github: 'https://github.com/your-github/portfolio',
-    link: 'https://your-portfolio.com',
+    github: 'https://github.com/Specner-Moore/website',
+    link: 'https://spencer-moore.ca',
   },
 ];
 
