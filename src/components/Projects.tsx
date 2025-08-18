@@ -33,7 +33,7 @@ const projects = [
     description: (
       <>
         <p>
-        InfoDrft is a web-app designed to pool together a variety of news articles based on the user's interests. NewsApi.org is first used to fetch recent articles matching the user's interests. These articles are then passed to the OpenAi api where they are summarized and displayed to the user. If the user is interested, they can then be brought to the full article where they can learn more.
+        InfoDrft is a web-app designed to pool together a variety of news articles based on the user&apos;s interests. NewsApi.org is first used to fetch recent articles matching the user&apos;s interests. These articles are then passed to the OpenAi api where they are summarized and displayed to the user. If the user is interested, they can then be brought to the full article to learn more.
         </p>
         <br />
         <p>
