@@ -71,7 +71,7 @@ export default function Projects() {
                     alt={project.title}
                     width={400}
                     height={256}
-                    className="object-cover w-full h-full"
+                    className="object-contain w-full h-full"
                   />
                 </div>
                             </div>
