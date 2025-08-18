@@ -26,6 +26,24 @@ const projects = [
     github: 'https://github.com/Specner-Moore/website',
     link: 'https://spencer-moore.ca',
   },
+  {
+  title: 'InfoDrft',
+    image: '/infodrft.png',
+    tags: ['Next.js', 'Supabase', 'NewsAPI.org', 'Vercel', 'Cursor AI', 'OpenAI API', 'TypeScript'],
+    description: (
+      <>
+        <p>
+        InfoDrft is a web-app designed to pool together a variety of news articles based on the user's interests. NewsApi.org is first used to fetch recent articles matching the user's interests. These articles are then passed to the OpenAi api where they are summarized and displayed to the user. If the user is interested, they can then be brought to the full article where they can learn more.
+        </p>
+        <br />
+        <p>
+        This is a full stack application built with the Next.js framework. This works alongside a PostgresSQL database hosted on Supabase and makes use of NewsApi.org and OpenAI API for providing articles to the user.
+        </p>
+      </>
+    ),
+    github: 'https://github.com/Specner-Moore/InfoDrft',
+    link: 'https://infodrft.com',
+  },
 ];
 
 export default function Projects() {

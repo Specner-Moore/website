@@ -1,6 +1,6 @@
 "use client";
 import { useState } from 'react';
-import { FaGithub, FaLinkedin, FaBars, FaTimes } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaBars, FaTimes, FaFileAlt } from 'react-icons/fa';
 
 const NAVBAR_HEIGHT = 64; // px, adjust if your navbar height changes
 
@@ -56,6 +56,15 @@ export default function NavBar() {
           >
             Personal Projects
           </button>
+          <a
+            href="/resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white font-semibold px-4 py-2 rounded hover:bg-gray-800 transition flex items-center gap-2"
+          >
+            <FaFileAlt />
+            Resume
+          </a>
         </div>
 
         {/* Mobile Hamburger Menu Button */}
@@ -120,6 +129,15 @@ export default function NavBar() {
             >
               Personal Projects
             </button>
+            <a
+              href="/resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white font-semibold px-6 py-3 text-center hover:bg-gray-800 transition w-full flex items-center justify-center gap-2"
+            >
+              <FaFileAlt />
+              Resume
+            </a>
           </div>
         </div>
       )}
