@@ -9,9 +9,7 @@ export default function Home() {
     <div className="min-h-screen bg-gradient-to-b from-gray-900 via-gray-900 to-gray-800">
       <NavBar />
       <div className="flex flex-col">
-        <div className="mb-56">
-          <HomeSection />
-        </div>
+        <HomeSection />
         <div className="mb-24">
           <AboutMe />
         </div>

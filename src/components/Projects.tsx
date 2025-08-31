@@ -5,6 +5,24 @@ import { FaGithub, FaExternalLinkAlt, FaArrowLeft, FaArrowRight } from 'react-ic
 
 const projects = [
   {
+    title: 'InfoDrft',
+      image: '/infodrft.png',
+      tags: ['Next.js', 'Supabase', 'NewsAPI.org', 'Vercel', 'Cursor AI', 'OpenAI API', 'TypeScript'],
+      description: (
+        <>
+          <p>
+          InfoDrft is a web-app designed to pool together a variety of news articles based on the user&apos;s interests. NewsApi.org is first used to fetch recent articles matching the user&apos;s interests. These articles are then passed to the OpenAi api where they are summarized and displayed to the user. If the user is interested, they can then be brought to the full article to learn more.
+          </p>
+          <br />
+          <p>
+          This is a full stack application built with the Next.js framework. This works alongside a PostgresSQL database hosted on Supabase and makes use of NewsApi.org and OpenAI API for providing articles to the user.
+          </p>
+        </>
+      ),
+      github: 'https://github.com/Specner-Moore/InfoDrft',
+      link: 'https://infodrft.com',
+  },
+  {
     title: 'Portfolio Website',
     image: '/website.png',
     tags: ['Next.js', 'React', 'Tailwind CSS', 'Vercel', 'Cursor AI'],
@@ -25,24 +43,6 @@ const projects = [
     ),
     github: 'https://github.com/Specner-Moore/website',
     link: 'https://spencer-moore.ca',
-  },
-  {
-  title: 'InfoDrft',
-    image: '/infodrft.png',
-    tags: ['Next.js', 'Supabase', 'NewsAPI.org', 'Vercel', 'Cursor AI', 'OpenAI API', 'TypeScript'],
-    description: (
-      <>
-        <p>
-        InfoDrft is a web-app designed to pool together a variety of news articles based on the user&apos;s interests. NewsApi.org is first used to fetch recent articles matching the user&apos;s interests. These articles are then passed to the OpenAi api where they are summarized and displayed to the user. If the user is interested, they can then be brought to the full article to learn more.
-        </p>
-        <br />
-        <p>
-        This is a full stack application built with the Next.js framework. This works alongside a PostgresSQL database hosted on Supabase and makes use of NewsApi.org and OpenAI API for providing articles to the user.
-        </p>
-      </>
-    ),
-    github: 'https://github.com/Specner-Moore/InfoDrft',
-    link: 'https://infodrft.com',
   },
 ];
 
@@ -81,7 +81,7 @@ export default function Projects() {
                   href={project.github}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-gray-800 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 text-xl"
+                  className="text-gray-800 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 text-xl cursor-pointer"
                   aria-label="GitHub"
                 >
                   <FaGithub />
@@ -90,7 +90,7 @@ export default function Projects() {
                   href={project.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-gray-800 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 text-xl"
+                  className="text-gray-800 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 text-xl cursor-pointer"
                   aria-label="Live Project"
                 >
                   <FaExternalLinkAlt />
@@ -117,7 +117,7 @@ export default function Projects() {
                 <div className="flex justify-between items-center">
                   <button
                     onClick={handlePrev}
-                    className="px-4 py-2 bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 rounded hover:bg-gray-300 dark:hover:bg-gray-600 transition font-semibold text-xl"
+                    className="px-4 py-2 bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 rounded hover:bg-gray-300 dark:hover:bg-gray-600 transition font-semibold text-xl cursor-pointer"
                     aria-label="Previous Project"
                   >
                     <FaArrowLeft />
@@ -136,7 +136,7 @@ export default function Projects() {
                         <button
                           key={index}
                           onClick={() => setCurrent(index)}
-                          className={`w-3 h-3 rounded-full transition-all duration-200 ${
+                          className={`w-3 h-3 rounded-full transition-all duration-200 cursor-pointer ${
                             index === current
                               ? 'bg-blue-600 dark:bg-blue-400 scale-110'
                               : 'bg-gray-300 dark:bg-gray-600 hover:bg-gray-400 dark:hover:bg-gray-500'
@@ -149,7 +149,7 @@ export default function Projects() {
                   
                   <button
                     onClick={handleNext}
-                    className="px-4 py-2 bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 rounded hover:bg-gray-300 dark:hover:bg-gray-600 transition font-semibold text-xl"
+                    className="px-4 py-2 bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 rounded hover:bg-gray-300 dark:hover:bg-gray-600 transition font-semibold text-xl cursor-pointer"
                     aria-label="Next Project"
                   >
                     <FaArrowRight />
