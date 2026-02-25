@@ -23,6 +23,24 @@ const projects = [
       link: 'https://infodrft.com',
   },
   {
+    title: 'Custom Office Form',
+      image: '/office-form.png',
+      tags: ['Next.js', 'Mailgun API', 'Vercel', 'Cursor AI', 'HTML', 'CSS', 'TypeScript'],
+      description: (
+        <>
+          <p>
+          This is a custom online patient questionnaire for a real medical office. It efficiently collects patient information and formats it for use in a referral letter. This information is securely sent to the office via email using mailgun API.
+          </p>
+          <br />
+          <p>
+          It was built with Next.js to replace the previously used paper-based questionnaire. This will save lots of time as it removes the need to manually read through and copy information to a letter.
+          </p>
+        </>
+      ),
+      github: 'https://github.com/Specner-Moore/OfficeForm',
+      link: 'https://drjeffmoore.ca',
+  },
+  {
     title: 'Portfolio Website',
     image: '/website.png',
     tags: ['Next.js', 'React', 'Tailwind CSS', 'Vercel', 'Cursor AI'],

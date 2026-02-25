@@ -8,7 +8,9 @@ const techTags = [
   'SQL',
   'JavaScript',
   'C',
+  'C++',
   'Java',
+  'HTML',
 ];
 
 export default function AboutMe() {
