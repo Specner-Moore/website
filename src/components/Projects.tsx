@@ -25,11 +25,11 @@ const projects = [
   {
     title: 'Custom Office Form',
       image: '/office-form.png',
-      tags: ['Next.js', 'Mailgun API', 'Vercel', 'Cursor AI', 'HTML', 'CSS', 'TypeScript'],
+      tags: ['Next.js', 'Mailgun API', 'Vercel', 'Cursor AI', 'HTML', 'CSS', 'TypeScript', 'Google Drive API'],
       description: (
         <>
           <p>
-          This is a custom online patient questionnaire for a real medical office. It efficiently collects patient information and formats it for use in a referral letter. This information is securely sent to the office via email using mailgun API.
+          This is a custom online patient questionnaire for a real medical office. It efficiently collects patient information and formats it for use in a referral letter. This information is securely sent to the office via email using mailgun API. The information is also written directly to the doctor's google drive where it can be easily used.
           </p>
           <br />
           <p>

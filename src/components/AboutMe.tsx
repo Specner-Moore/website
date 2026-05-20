@@ -11,6 +11,8 @@ const techTags = [
   'C++',
   'Java',
   'HTML',
+  'Cypher',
+  'Neo4j'
 ];
 
 export default function AboutMe() {
