@@ -29,7 +29,7 @@ const projects = [
       description: (
         <>
           <p>
-          This is a custom online patient questionnaire for a real medical office. It efficiently collects patient information and formats it for use in a referral letter. This information is securely sent to the office via email using mailgun API. The information is also written directly to the doctor's google drive where it can be easily used.
+          This is a custom online patient questionnaire for a real medical office. It efficiently collects patient information and formats it for use in a referral letter. This information is securely sent to the office via email using mailgun API. The information is also written directly to the doctor&apos;s google drive where it can be easily used.
           </p>
           <br />
           <p>
